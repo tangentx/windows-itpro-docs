@@ -49,7 +49,7 @@ Ensure [Remote Credential Guard](/windows/access-protection/remote-credential-gu
      
       - Adding users manually
    
-        You can specify individual Azure AD accounts for remote connections by running the following PowerShell cmdlet:
+        You can specify individual Azure AD accounts for remote connections by running the following command:
         ```powershell
         net localgroup "Remote Desktop Users" /add "AzureAD\the-UPN-attribute-of-your-user"
         ```
